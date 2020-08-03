@@ -1,0 +1,12 @@
+{
+  "name": "hello-world-discordie",
+  "version": "1.0.0",
+  "description": "Hello, World! Discordie!",
+  "main": "main.js",
+  "dependencies": {
+    "discordie": "^0.11.0"
+  },
+  "repository": "github:xhayper/discord-libraries-hello-world",
+  "author": "hayper1919",
+  "license": "MIT"
+}

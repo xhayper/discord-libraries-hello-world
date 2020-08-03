@@ -1,0 +1,18 @@
+{
+  "name": "hello-world-discordjs",
+  "version": "1.0.0",
+  "description": "Hello, World! DiscordJS!",
+  "main": "main.js",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^12.2.0",
+    "erlpack": "github:discordapp/erlpack",
+    "libsodium-wrappers": "^0.7.6",
+    "utf-8-validate": "^5.0.2",
+    "zlib-sync": "^0.1.7"
+  },
+  "repository": "github:xhayper/discord-libraries-hello-world",
+  "author": "hayper1919",
+  "license": "MIT"
+}

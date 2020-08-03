@@ -1,0 +1,15 @@
+{
+  "name": "hello-world-discordjs-light",
+  "version": "1.0.0",
+  "description": "Hello, World! DiscordJS-light!",
+  "main": "main.js",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord.js-light": "^3.1.1",
+    "utf-8-validate": "^5.0.2",
+    "zlib-sync": "^0.1.7"
+  },
+  "repository": "github:xhayper/discord-libraries-hello-world",
+  "author": "hayper1919",
+  "license": "MIT"
+}

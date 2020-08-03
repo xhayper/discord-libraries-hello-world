@@ -1,0 +1,12 @@
+{
+  "name": "hello-world-discordio",
+  "version": "1.0.0",
+  "description": "Hello, World! DiscordIO!",
+  "main": "main.js",
+  "dependencies": {
+    "discord.io": "^2.5.3"
+  },
+  "repository": "github:xhayper/discord-libraries-hello-world",
+  "author": "hayper1919",
+  "license": "MIT"
+}
