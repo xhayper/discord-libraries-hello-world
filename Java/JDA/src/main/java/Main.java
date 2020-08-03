@@ -1,9 +1,9 @@
-package io.github.hayper1919;
-
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
+import net.dv8tion.jda.api.events.ReadyEvent;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
+
 import javax.security.auth.login.LoginException;
 
 public class Main extends ListenerAdapter {
@@ -19,4 +19,9 @@ public class Main extends ListenerAdapter {
         if (event.getMessage().getContentDisplay().equals("hello world")) event.getChannel().sendMessage("Hello, World! JDA!").queue();
     }
 
+    @Override
+    public void onReady(ReadyEvent event)
+    {
+        System.out.println("Logged in as " + event.getJDA().getSelfUser().getName() + "#" + event.getJDA().getSelfUser().getDiscriminator());
+    }
 }
