@@ -19,7 +19,7 @@ public class Main {
             if("hello world".equals(message.getContent())) {
                 MessageChannel channel = message.getChannel().block();
                 if (channel == null) return;
-                channel.createMessage("Hello, World! Discord4J").block();
+                channel.createMessage("Hello, World! Discord4J!").block();
             }
         });
 
