@@ -1,5 +1,5 @@
 local litcord = require('litcord')
-local client = litcord('token')
+local client = litcord('TOKEN')
 
 client:on('ready', function()
     print('Logged in as '..client.user.username)
