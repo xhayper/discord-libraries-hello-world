@@ -22,7 +22,7 @@ impl EventHandler for Handler {
 }
 
 fn main() {
-    let token = env::var("DISCORD_TOKEN")
+    let token = env::var("TOKEN")
         .expect("Expected a token in the environment");
 
     let mut client = Client::new(&token, Handler).expect("Error creating client");
