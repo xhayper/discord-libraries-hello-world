@@ -1,0 +1,8 @@
+[package]
+name = "hello-world"
+version = "1.0.0"
+authors = ["xhayper"]
+edition = "2018"
+
+[dependencies]
+serenity = { path = "../../", default-features = true }
