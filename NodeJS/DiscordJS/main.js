@@ -1,4 +1,4 @@
-const Discord = require('discord.js-light'),
+const Discord = require('discord.js'),
       client = new Discord.Client();
 
 client.on('ready', () => {
