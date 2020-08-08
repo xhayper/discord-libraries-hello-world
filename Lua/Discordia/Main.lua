@@ -11,4 +11,4 @@ client:on('messageCreate', function(message)
 	end
 end)
 
-client:run('Bot TOKEN')
+client:run('TOKEN')
