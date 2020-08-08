@@ -9,7 +9,7 @@ struct Handler;
 
 impl EventHandler for Handler {
     fn message(&self, ctx: Context, msg: Message) {
-        if msg.content == "hello" {
+        if msg.content == "hello world" {
             if let Err(why) = msg.channel_id.say(&ctx.http, "Hello, world! Rust") {
                 println!("Error sending message: {:?}", why);
             }
