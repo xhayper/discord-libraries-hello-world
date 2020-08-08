@@ -1,6 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: ""
-    directory: "/"
+  - package-ecosystem: "npm"
+    directory: "/NodeJS"
     schedule:
       interval: "daily"
+  - package-ecosystem: "maven:
+    directory: "/Java"
+    schedule:
+       interval: "daily"
